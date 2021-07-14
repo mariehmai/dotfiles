@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# After installing Xcode
+# after installing Xcode
 sudo xcodebuild -license # agree with license
 xcode-select --install # install command line tool
 
@@ -23,3 +23,10 @@ git config --global alias.rv 'remote -v'
 git config --global alias.d 'diff'
 git config --global alias.gl 'config --global -l'
 git config --global alias.se '!git rev-list --all | xargs git grep -F'
+
+# configure android studio
+echo export ANDROID_HOME=$HOME/Library/Android/sdk >> ~/.zshrc
+echo export PATH=$PATH:$ANDROID_HOME/emulator >> ~/.zshrc
+echo export PATH=$PATH:$ANDROID_HOME/tools >> ~/.zshrc
+echo export PATH=$PATH:$ANDROID_HOME/tools/bin >> ~/.zshrc
+echo export PATH=$PATH:$ANDROID_HOME/platform-tools >> ~/.zshrc
