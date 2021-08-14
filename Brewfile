@@ -17,6 +17,7 @@ brew "applesimutils"
 
 cask "iterm2"
 cask "spectacle"
+cask "keycastr"
 cask "adoptopenjdk8"
 cask "agenda"
 cask "android-studio"
