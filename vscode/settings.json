@@ -1,0 +1,59 @@
+{
+  // Common
+  "editor.formatOnSave": true,
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "prettier.requireConfig": true,
+
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "editor.insertSpaces": true,
+
+  "css.validate": false,
+  "tailwindCSS.validate": true,
+
+  // Extra
+  "window.zoomLevel": 0,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "breadcrumbs.enabled": true,
+
+  "editor.renderWhitespace": "boundary",
+  "editor.suggestSelection": "first",
+  "editor.wordWrapColumn": 500,
+  "editor.tabSize": 2,
+  "editor.rulers": [{ "column": 80 }],
+  "editor.snippetSuggestions": "top",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "always",
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.semicolons": "insert",
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "bracketPairColorizer.showBracketsInRuler": true,
+  "bracketPairColorizer.depreciation-notice": false,
+
+  "vim.hlsearch": true,
+}
+
