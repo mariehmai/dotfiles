@@ -1,0 +1,33 @@
+[alias]
+	st = status
+	co = checkout
+	cob = checkout -b
+	com = !git checkout main && git pull
+	br = branch
+	brm = branch -m
+	brd = branch -d
+	brD = branch -D
+	cm = commit -m
+	ca = commit --amend
+	can = commit --amend --no-edit
+	unc = reset --soft HEAD^
+	ll = log --oneline --decorate --graph --all
+	lla = "log --graph --all --pretty=format:'%C(yellow bold)%h%C(reset) %C(#137547 bold)%an%C(reset) %C(#FF0492 bold)%ar%C(reset) %s'"
+	last = log -1 HEAD --stat
+	rv = remote -v
+	d = diff
+	gl = config --global -l
+	se = !git rev-list --all | xargs git grep -F
+	mup = !git checkout main && git pull && git checkout - && git rebase origin/main
+	ureset = !git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)
+	stash = stash -u
+	pop = stash pop
+[user]
+	name = mariehmai
+	email = example@me
+[push]
+	default = upstream
+[fetch]
+	prune = true
+[merge]
+	ff = only
