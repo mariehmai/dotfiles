@@ -20,7 +20,7 @@
 	se = !git rev-list --all | xargs git grep -F
 	mup = !git checkout main && git pull && git checkout - && git rebase origin/main
 	ureset = !git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)
-	stash = stash -u
+	save = stash save -u
 	pop = stash pop
 [user]
 	name = mariehmai
