@@ -16,7 +16,7 @@ brew "zsh"
 brew "applesimutils"
 
 cask "iterm2"
-cask "spectacle"
+cask "rectangle"
 cask "keycastr"
 cask "visual-studio-code"
 #cask "android-studio"
