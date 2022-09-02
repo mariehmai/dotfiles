@@ -1,12 +1,12 @@
 vscode-icons-team.vscode-icons
 vscodevim.vim
+streetsidesoftware.code-spell-checker
 esbenp.prettier-vscode
 dbaeumer.vscode-eslint
-ms-vscode.vscode-typescript-tslint-plugin
-CoenraadS.bracket-pair-colorizer
 steoates.autoimport
 formulahendry.auto-rename-tag
 AESSoft.aessoft-class-autocomplete
+rodrigovallades.es7-react-js-snippets
 ryanluker.vscode-coverage-gutters
 Nixon.env-cmd-file-syntax
 eamodio.gitlens
@@ -23,3 +23,5 @@ ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
 Prisma.prisma
 ms-azuretools.vscode-docker
+dorki.cloudwatchlogs
+grimmer.vscode-back-forward-button
