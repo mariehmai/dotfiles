@@ -6,6 +6,7 @@
 
 # Installs Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo export PATH=/opt/homebrew/bin:$PATH >> ~/.zshrc # Required for M1/M2 chip
 brew tap Homebrew/bundle
 brew bundle
 
