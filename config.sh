@@ -32,9 +32,8 @@ source ~/.zshrc
 #echo export PATH=$PATH:$ANDROID_HOME/tools/bin >> ~/.zshrc
 #echo export PATH=$PATH:$ANDROID_HOME/platform-tools >> ~/.zshrc
 
-# Configures nvm
-#echo export NVM_DIR=~/.nvm >> ~/.zshrc
-#echo source $(brew --prefix nvm)/nvm.sh >> ~/.zshrc
+# Configures asdf
+#echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ${ZDOTDIR:-~}/.zshrc
 
 source ~/.zshrc
 
