@@ -15,6 +15,8 @@ brew "zsh"
 #brew "go"
 brew "yarn"
 brew "applesimutils"
+brew "docker"
+brew "docker-compose"
 
 cask "iterm2"
 cask "rectangle"
