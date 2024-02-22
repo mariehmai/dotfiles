@@ -1,6 +1,4 @@
 tap "adoptopenjdk/openjdk"
-tap "homebrew/cask"
-tap "homebrew/core"
 tap "wix/brew"
 
 brew "curl"
