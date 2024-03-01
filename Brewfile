@@ -17,9 +17,10 @@ brew "applesimutils"
 brew "docker"
 brew "docker-compose"
 brew "orbstack"
+brew "autojump" # utility to navigate the filesystem 
 
 cask "iterm2"
-cask "rectangle"
+cask "rectangle" # utility to resize windows
 cask "keycastr"
 cask "visual-studio-code"
 #cask "android-studio"
