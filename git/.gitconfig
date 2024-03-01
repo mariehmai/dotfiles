@@ -28,6 +28,7 @@
 	email = example@me
 [push]
 	default = upstream
+	autoSetupRemote = true
 [fetch]
 	prune = true
 [merge]
